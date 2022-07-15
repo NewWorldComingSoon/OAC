@@ -1,4 +1,4 @@
-#include <IBaseInterface.h>
+#include <IWinBase.h>
 
 namespace OAC
 {
