@@ -3,7 +3,7 @@
 namespace OAC
 {
 
-class IWinUser : public IBaseInterface
+class IBaseWin : public IBaseInterface
 {
 public:
 

@@ -3,7 +3,7 @@
 namespace OAC
 {
 
-class IWinUser : public IWinBase
+class IWinUser : public IBaseWin
 {
 public:
 

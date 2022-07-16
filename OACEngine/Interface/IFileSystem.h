@@ -4,12 +4,18 @@ namespace OAC
 {
 
 using fnReadFileCallback = void(*)(OACBuffer *output, uint64_t bytesRead, void *context);
+
 using fnQueryFileSizeCallback = void(*)(uint64_t fileSize, void *context);
+
 using OACFileHandle_t = void *;
 
 class IFileSystem : public IBaseInterface
 {
 public:
+    void Initialize() = 0;
+
+    void Shutdown() = 0;
+
     //Synchronous API
 
     OACFileHandle_t Open(OACString_t *fileName) = 0;

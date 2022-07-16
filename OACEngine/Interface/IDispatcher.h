@@ -6,7 +6,7 @@ namespace OAC
 class IDispatcher : public IBaseInterface
 {
 public:
-    void Initialize(int numWorkers) = 0;
+    void Initialize() = 0;
 
     /* Block here until all workers completely shutdown */
     void Shutdown() = 0;

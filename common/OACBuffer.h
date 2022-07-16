@@ -12,7 +12,9 @@ public:
 
     void Release() = 0;
 
-    void *GetRawPtr(void) const = 0;
+    void *GetRawPtr() const = 0;
+
+    void *GetSize() const = 0;
 
     void BeginAccess() = 0;
 

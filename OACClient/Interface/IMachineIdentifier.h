@@ -3,7 +3,7 @@
 namespace OAC
 {
 
-class ISelfIntegrity : public IBaseInterface
+class IMachineIdentifier : public IBaseInterface
 {
 public:
 

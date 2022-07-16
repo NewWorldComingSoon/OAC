@@ -1,0 +1,16 @@
+#include <IBaseInterface.h>
+
+namespace OAC
+{
+
+INTERFACE_PACKED_ID(IAlerter, 0, 0);
+INTERFACE_PACKED_ID(IDispatcher, 1, 0);
+INTERFACE_PACKED_ID(IDriver, 2, 0);
+INTERFACE_PACKED_ID(IEngine, 3, 0);
+INTERFACE_PACKED_ID(IFileSystem, 4, 0);
+INTERFACE_PACKED_ID(INetwork, 5, 0);
+INTERFACE_PACKED_ID(IReport, 6, 0);
+INTERFACE_PACKED_ID(IWinKernel , 7, 0);
+INTERFACE_PACKED_ID(IWinUser, 8, 0);
+
+}
